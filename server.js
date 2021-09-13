@@ -6,6 +6,6 @@ app.get("/",(req,res) => {
     res.send("hello World")
 })
 
-app.listen(5000,()=>{
+app.listen(3000,()=>{
     console.log("started")
 })
